@@ -1,0 +1,216 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		533292C51661CAF500E8ACDB /* .deps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .deps; sourceTree = "<group>"; };
+		533292C61661CAF500E8ACDB /* analys.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = analys.c; sourceTree = "<group>"; };
+		533292C71661CAF500E8ACDB /* bsynz.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bsynz.c; sourceTree = "<group>"; };
+		533292C81661CAF500E8ACDB /* chanwr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chanwr.c; sourceTree = "<group>"; };
+		533292C91661CAF500E8ACDB /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		533292CA1661CAF500E8ACDB /* dcbias.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dcbias.c; sourceTree = "<group>"; };
+		533292CB1661CAF500E8ACDB /* decode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decode.c; sourceTree = "<group>"; };
+		533292CC1661CAF500E8ACDB /* deemp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deemp.c; sourceTree = "<group>"; };
+		533292CD1661CAF500E8ACDB /* difmag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = difmag.c; sourceTree = "<group>"; };
+		533292CE1661CAF500E8ACDB /* dyptrk.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dyptrk.c; sourceTree = "<group>"; };
+		533292CF1661CAF500E8ACDB /* encode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encode.c; sourceTree = "<group>"; };
+		533292D01661CAF500E8ACDB /* energy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = energy.c; sourceTree = "<group>"; };
+		533292D11661CAF500E8ACDB /* f2c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = f2c.h; sourceTree = "<group>"; };
+		533292D21661CAF500E8ACDB /* f2clib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = f2clib.c; sourceTree = "<group>"; };
+		533292D31661CAF500E8ACDB /* ham84.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ham84.c; sourceTree = "<group>"; };
+		533292D41661CAF500E8ACDB /* hp100.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hp100.c; sourceTree = "<group>"; };
+		533292D51661CAF500E8ACDB /* invert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = invert.c; sourceTree = "<group>"; };
+		533292D61661CAF500E8ACDB /* irc2pc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = irc2pc.c; sourceTree = "<group>"; };
+		533292D71661CAF500E8ACDB /* ivfilt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ivfilt.c; sourceTree = "<group>"; };
+		533292D81661CAF500E8ACDB /* lpc10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lpc10.h; sourceTree = "<group>"; };
+		533292D91661CAF500E8ACDB /* lpcdec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lpcdec.c; sourceTree = "<group>"; };
+		533292DA1661CAF500E8ACDB /* lpcenc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lpcenc.c; sourceTree = "<group>"; };
+		533292DB1661CAF500E8ACDB /* lpcini.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lpcini.c; sourceTree = "<group>"; };
+		533292DC1661CAF500E8ACDB /* lpfilt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lpfilt.c; sourceTree = "<group>"; };
+		533292DD1661CAF500E8ACDB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		533292DE1661CAF500E8ACDB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		533292DF1661CAF500E8ACDB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		533292E01661CAF500E8ACDB /* median.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = median.c; sourceTree = "<group>"; };
+		533292E11661CAF500E8ACDB /* mload.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mload.c; sourceTree = "<group>"; };
+		533292E21661CAF500E8ACDB /* onset.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = onset.c; sourceTree = "<group>"; };
+		533292E31661CAF500E8ACDB /* pitsyn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pitsyn.c; sourceTree = "<group>"; };
+		533292E41661CAF500E8ACDB /* placea.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = placea.c; sourceTree = "<group>"; };
+		533292E51661CAF500E8ACDB /* placev.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = placev.c; sourceTree = "<group>"; };
+		533292E61661CAF500E8ACDB /* preemp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = preemp.c; sourceTree = "<group>"; };
+		533292E71661CAF500E8ACDB /* prepro.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = prepro.c; sourceTree = "<group>"; };
+		533292E81661CAF500E8ACDB /* random.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = random.c; sourceTree = "<group>"; };
+		533292E91661CAF500E8ACDB /* rcchk.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rcchk.c; sourceTree = "<group>"; };
+		533292EA1661CAF500E8ACDB /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		533292EB1661CAF500E8ACDB /* synths.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = synths.c; sourceTree = "<group>"; };
+		533292EC1661CAF500E8ACDB /* tbdm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tbdm.c; sourceTree = "<group>"; };
+		533292ED1661CAF500E8ACDB /* voicin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = voicin.c; sourceTree = "<group>"; };
+		533292EE1661CAF500E8ACDB /* vparms.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vparms.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		533292BD1661CAF500E8ACDB = {
+			isa = PBXGroup;
+			children = (
+				533292C51661CAF500E8ACDB /* .deps */,
+				533292C61661CAF500E8ACDB /* analys.c */,
+				533292C71661CAF500E8ACDB /* bsynz.c */,
+				533292C81661CAF500E8ACDB /* chanwr.c */,
+				533292C91661CAF500E8ACDB /* CMakeLists.txt */,
+				533292CA1661CAF500E8ACDB /* dcbias.c */,
+				533292CB1661CAF500E8ACDB /* decode.c */,
+				533292CC1661CAF500E8ACDB /* deemp.c */,
+				533292CD1661CAF500E8ACDB /* difmag.c */,
+				533292CE1661CAF500E8ACDB /* dyptrk.c */,
+				533292CF1661CAF500E8ACDB /* encode.c */,
+				533292D01661CAF500E8ACDB /* energy.c */,
+				533292D11661CAF500E8ACDB /* f2c.h */,
+				533292D21661CAF500E8ACDB /* f2clib.c */,
+				533292D31661CAF500E8ACDB /* ham84.c */,
+				533292D41661CAF500E8ACDB /* hp100.c */,
+				533292D51661CAF500E8ACDB /* invert.c */,
+				533292D61661CAF500E8ACDB /* irc2pc.c */,
+				533292D71661CAF500E8ACDB /* ivfilt.c */,
+				533292D81661CAF500E8ACDB /* lpc10.h */,
+				533292D91661CAF500E8ACDB /* lpcdec.c */,
+				533292DA1661CAF500E8ACDB /* lpcenc.c */,
+				533292DB1661CAF500E8ACDB /* lpcini.c */,
+				533292DC1661CAF500E8ACDB /* lpfilt.c */,
+				533292DD1661CAF500E8ACDB /* Makefile */,
+				533292DE1661CAF500E8ACDB /* Makefile.am */,
+				533292DF1661CAF500E8ACDB /* Makefile.in */,
+				533292E01661CAF500E8ACDB /* median.c */,
+				533292E11661CAF500E8ACDB /* mload.c */,
+				533292E21661CAF500E8ACDB /* onset.c */,
+				533292E31661CAF500E8ACDB /* pitsyn.c */,
+				533292E41661CAF500E8ACDB /* placea.c */,
+				533292E51661CAF500E8ACDB /* placev.c */,
+				533292E61661CAF500E8ACDB /* preemp.c */,
+				533292E71661CAF500E8ACDB /* prepro.c */,
+				533292E81661CAF500E8ACDB /* random.c */,
+				533292E91661CAF500E8ACDB /* rcchk.c */,
+				533292EA1661CAF500E8ACDB /* README */,
+				533292EB1661CAF500E8ACDB /* synths.c */,
+				533292EC1661CAF500E8ACDB /* tbdm.c */,
+				533292ED1661CAF500E8ACDB /* voicin.c */,
+				533292EE1661CAF500E8ACDB /* vparms.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		533292C41661CAF500E8ACDB /* lpc10 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 533292EF1661CAF500E8ACDB /* Build configuration list for PBXLegacyTarget "lpc10" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/jiehou/Downloads/sox-14.4.0/lpc10";
+			dependencies = (
+			);
+			name = lpc10;
+			passBuildSettingsInEnvironment = 1;
+			productName = lpc10;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		533292BF1661CAF500E8ACDB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 533292C21661CAF500E8ACDB /* Build configuration list for PBXProject "lpc10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 533292BD1661CAF500E8ACDB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533292C41661CAF500E8ACDB /* lpc10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		533292C01661CAF500E8ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		533292C11661CAF500E8ACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		533292F01661CAF500E8ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = lpc10;
+			};
+			name = Debug;
+		};
+		533292F11661CAF500E8ACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = lpc10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533292C21661CAF500E8ACDB /* Build configuration list for PBXProject "lpc10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533292C01661CAF500E8ACDB /* Debug */,
+				533292C11661CAF500E8ACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533292EF1661CAF500E8ACDB /* Build configuration list for PBXLegacyTarget "lpc10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533292F01661CAF500E8ACDB /* Debug */,
+				533292F11661CAF500E8ACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533292BF1661CAF500E8ACDB /* Project object */;
+}

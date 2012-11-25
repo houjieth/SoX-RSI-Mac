@@ -1,0 +1,176 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		533292A41661CAF500E8ACDB /* .deps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .deps; sourceTree = "<group>"; };
+		533292A51661CAF500E8ACDB /* add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = add.c; sourceTree = "<group>"; };
+		533292A61661CAF500E8ACDB /* aliases.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aliases.h; sourceTree = "<group>"; };
+		533292A71661CAF500E8ACDB /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		533292A81661CAF500E8ACDB /* code.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = code.c; sourceTree = "<group>"; };
+		533292A91661CAF500E8ACDB /* decode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decode.c; sourceTree = "<group>"; };
+		533292AA1661CAF500E8ACDB /* gsm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsm.h; sourceTree = "<group>"; };
+		533292AB1661CAF500E8ACDB /* gsm_create.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gsm_create.c; sourceTree = "<group>"; };
+		533292AC1661CAF500E8ACDB /* gsm_decode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gsm_decode.c; sourceTree = "<group>"; };
+		533292AD1661CAF500E8ACDB /* gsm_destroy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gsm_destroy.c; sourceTree = "<group>"; };
+		533292AE1661CAF500E8ACDB /* gsm_encode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gsm_encode.c; sourceTree = "<group>"; };
+		533292AF1661CAF500E8ACDB /* gsm_option.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gsm_option.c; sourceTree = "<group>"; };
+		533292B01661CAF500E8ACDB /* long_term.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = long_term.c; sourceTree = "<group>"; };
+		533292B11661CAF500E8ACDB /* lpc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lpc.c; sourceTree = "<group>"; };
+		533292B21661CAF500E8ACDB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		533292B31661CAF500E8ACDB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		533292B41661CAF500E8ACDB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		533292B51661CAF500E8ACDB /* preprocess.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = preprocess.c; sourceTree = "<group>"; };
+		533292B61661CAF500E8ACDB /* private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = private.h; sourceTree = "<group>"; };
+		533292B71661CAF500E8ACDB /* rpe.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rpe.c; sourceTree = "<group>"; };
+		533292B81661CAF500E8ACDB /* short_term.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = short_term.c; sourceTree = "<group>"; };
+		533292B91661CAF500E8ACDB /* table.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = table.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5332929C1661CAF500E8ACDB = {
+			isa = PBXGroup;
+			children = (
+				533292A41661CAF500E8ACDB /* .deps */,
+				533292A51661CAF500E8ACDB /* add.c */,
+				533292A61661CAF500E8ACDB /* aliases.h */,
+				533292A71661CAF500E8ACDB /* CMakeLists.txt */,
+				533292A81661CAF500E8ACDB /* code.c */,
+				533292A91661CAF500E8ACDB /* decode.c */,
+				533292AA1661CAF500E8ACDB /* gsm.h */,
+				533292AB1661CAF500E8ACDB /* gsm_create.c */,
+				533292AC1661CAF500E8ACDB /* gsm_decode.c */,
+				533292AD1661CAF500E8ACDB /* gsm_destroy.c */,
+				533292AE1661CAF500E8ACDB /* gsm_encode.c */,
+				533292AF1661CAF500E8ACDB /* gsm_option.c */,
+				533292B01661CAF500E8ACDB /* long_term.c */,
+				533292B11661CAF500E8ACDB /* lpc.c */,
+				533292B21661CAF500E8ACDB /* Makefile */,
+				533292B31661CAF500E8ACDB /* Makefile.am */,
+				533292B41661CAF500E8ACDB /* Makefile.in */,
+				533292B51661CAF500E8ACDB /* preprocess.c */,
+				533292B61661CAF500E8ACDB /* private.h */,
+				533292B71661CAF500E8ACDB /* rpe.c */,
+				533292B81661CAF500E8ACDB /* short_term.c */,
+				533292B91661CAF500E8ACDB /* table.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		533292A31661CAF500E8ACDB /* libgsm */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 533292BA1661CAF500E8ACDB /* Build configuration list for PBXLegacyTarget "libgsm" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/jiehou/Downloads/sox-14.4.0/libgsm";
+			dependencies = (
+			);
+			name = libgsm;
+			passBuildSettingsInEnvironment = 1;
+			productName = libgsm;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		5332929E1661CAF500E8ACDB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 533292A11661CAF500E8ACDB /* Build configuration list for PBXProject "libgsm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5332929C1661CAF500E8ACDB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533292A31661CAF500E8ACDB /* libgsm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		5332929F1661CAF500E8ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		533292A01661CAF500E8ACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		533292BB1661CAF500E8ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgsm;
+			};
+			name = Debug;
+		};
+		533292BC1661CAF500E8ACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libgsm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533292A11661CAF500E8ACDB /* Build configuration list for PBXProject "libgsm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5332929F1661CAF500E8ACDB /* Debug */,
+				533292A01661CAF500E8ACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533292BA1661CAF500E8ACDB /* Build configuration list for PBXLegacyTarget "libgsm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533292BB1661CAF500E8ACDB /* Debug */,
+				533292BC1661CAF500E8ACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5332929E1661CAF500E8ACDB /* Project object */;
+}

@@ -1,0 +1,186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		533292FA1661CAF500E8ACDB /* LibFlac.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibFlac.vcproj; sourceTree = "<group>"; };
+		533292FB1661CAF500E8ACDB /* LibGsm.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibGsm.vcproj; sourceTree = "<group>"; };
+		533292FC1661CAF500E8ACDB /* LibId3Tag.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibId3Tag.vcproj; sourceTree = "<group>"; };
+		533292FD1661CAF500E8ACDB /* LibLpc10.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibLpc10.vcproj; sourceTree = "<group>"; };
+		533292FE1661CAF500E8ACDB /* LibMad.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibMad.vcproj; sourceTree = "<group>"; };
+		533292FF1661CAF500E8ACDB /* LibMp3Lame.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibMp3Lame.vcproj; sourceTree = "<group>"; };
+		533293001661CAF500E8ACDB /* LibOgg.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibOgg.vcproj; sourceTree = "<group>"; };
+		533293011661CAF500E8ACDB /* LibPng.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibPng.vcproj; sourceTree = "<group>"; };
+		533293021661CAF500E8ACDB /* LibSndFile.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibSndFile.vcproj; sourceTree = "<group>"; };
+		533293031661CAF500E8ACDB /* LibSndFileG72x.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibSndFileG72x.vcproj; sourceTree = "<group>"; };
+		533293041661CAF500E8ACDB /* LibSndFileGSM610.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibSndFileGSM610.vcproj; sourceTree = "<group>"; };
+		533293051661CAF500E8ACDB /* LibSoX.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibSoX.vcproj; sourceTree = "<group>"; };
+		533293061661CAF500E8ACDB /* LibSpeex.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibSpeex.vcproj; sourceTree = "<group>"; };
+		533293071661CAF500E8ACDB /* LibVorbis.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibVorbis.vcproj; sourceTree = "<group>"; };
+		533293081661CAF500E8ACDB /* LibWavPack.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibWavPack.vcproj; sourceTree = "<group>"; };
+		533293091661CAF500E8ACDB /* LibZLib.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LibZLib.vcproj; sourceTree = "<group>"; };
+		5332930A1661CAF500E8ACDB /* Mad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mad; sourceTree = "<group>"; };
+		5332930B1661CAF500E8ACDB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5332930C1661CAF500E8ACDB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		5332930D1661CAF500E8ACDB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		5332930E1661CAF500E8ACDB /* Mp3Lame */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mp3Lame; sourceTree = "<group>"; };
+		5332930F1661CAF500E8ACDB /* Png */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Png; sourceTree = "<group>"; };
+		533293101661CAF500E8ACDB /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		533293111661CAF500E8ACDB /* SndFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SndFile; sourceTree = "<group>"; };
+		533293121661CAF500E8ACDB /* Sox */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sox; sourceTree = "<group>"; };
+		533293131661CAF500E8ACDB /* Sox.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sox.sln; sourceTree = "<group>"; };
+		533293141661CAF500E8ACDB /* SoX.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SoX.vcproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		533292F21661CAF500E8ACDB = {
+			isa = PBXGroup;
+			children = (
+				533292FA1661CAF500E8ACDB /* LibFlac.vcproj */,
+				533292FB1661CAF500E8ACDB /* LibGsm.vcproj */,
+				533292FC1661CAF500E8ACDB /* LibId3Tag.vcproj */,
+				533292FD1661CAF500E8ACDB /* LibLpc10.vcproj */,
+				533292FE1661CAF500E8ACDB /* LibMad.vcproj */,
+				533292FF1661CAF500E8ACDB /* LibMp3Lame.vcproj */,
+				533293001661CAF500E8ACDB /* LibOgg.vcproj */,
+				533293011661CAF500E8ACDB /* LibPng.vcproj */,
+				533293021661CAF500E8ACDB /* LibSndFile.vcproj */,
+				533293031661CAF500E8ACDB /* LibSndFileG72x.vcproj */,
+				533293041661CAF500E8ACDB /* LibSndFileGSM610.vcproj */,
+				533293051661CAF500E8ACDB /* LibSoX.vcproj */,
+				533293061661CAF500E8ACDB /* LibSpeex.vcproj */,
+				533293071661CAF500E8ACDB /* LibVorbis.vcproj */,
+				533293081661CAF500E8ACDB /* LibWavPack.vcproj */,
+				533293091661CAF500E8ACDB /* LibZLib.vcproj */,
+				5332930A1661CAF500E8ACDB /* Mad */,
+				5332930B1661CAF500E8ACDB /* Makefile */,
+				5332930C1661CAF500E8ACDB /* Makefile.am */,
+				5332930D1661CAF500E8ACDB /* Makefile.in */,
+				5332930E1661CAF500E8ACDB /* Mp3Lame */,
+				5332930F1661CAF500E8ACDB /* Png */,
+				533293101661CAF500E8ACDB /* Readme.txt */,
+				533293111661CAF500E8ACDB /* SndFile */,
+				533293121661CAF500E8ACDB /* Sox */,
+				533293131661CAF500E8ACDB /* Sox.sln */,
+				533293141661CAF500E8ACDB /* SoX.vcproj */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		533292F91661CAF500E8ACDB /* msvc9 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 533293151661CAF500E8ACDB /* Build configuration list for PBXLegacyTarget "msvc9" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/jiehou/Downloads/sox-14.4.0/msvc9";
+			dependencies = (
+			);
+			name = msvc9;
+			passBuildSettingsInEnvironment = 1;
+			productName = msvc9;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		533292F41661CAF500E8ACDB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 533292F71661CAF500E8ACDB /* Build configuration list for PBXProject "msvc9" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 533292F21661CAF500E8ACDB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533292F91661CAF500E8ACDB /* msvc9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		533292F51661CAF500E8ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		533292F61661CAF500E8ACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		533293161661CAF500E8ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = msvc9;
+			};
+			name = Debug;
+		};
+		533293171661CAF500E8ACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = msvc9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533292F71661CAF500E8ACDB /* Build configuration list for PBXProject "msvc9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533292F51661CAF500E8ACDB /* Debug */,
+				533292F61661CAF500E8ACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533293151661CAF500E8ACDB /* Build configuration list for PBXLegacyTarget "msvc9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533293161661CAF500E8ACDB /* Debug */,
+				533293171661CAF500E8ACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533292F41661CAF500E8ACDB /* Project object */;
+}
